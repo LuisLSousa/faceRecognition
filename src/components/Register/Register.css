@@ -1,5 +1,4 @@
 .form {
-    width: 700px;
     backdrop-filter: opacity(0.8) blur(1px);
     background-color:rgba(47, 204, 165, 0.4);
 }
