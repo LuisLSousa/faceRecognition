@@ -5,7 +5,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
     return(
         <div>
             <p className='f4 white'>
-                {'Paste an image\'s url and let me work my magic!'}
+                {' Paste an image\'s url and I will find a face!'}
             </p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5'>
