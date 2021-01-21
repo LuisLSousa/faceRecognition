@@ -13,6 +13,10 @@ const particlesOptions = {
   particles: {
     number: {
       value: 230,
+      density: {
+        enable: true,
+        value_area: 800,
+      },
     },
     size:{
       value: 3,
@@ -21,11 +25,7 @@ const particlesOptions = {
         random: true,
       }
     },
-    density: {
-        enable: true,
-        value_area: 800,
-        auto: true
-    },
+    
    },
 
   interactivity: {
@@ -34,7 +34,8 @@ const particlesOptions = {
       onhover:{
         enable: true,
         mode: 'repulse',
-      }
+      },
+      resize: true
     }
   }
 }
