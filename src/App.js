@@ -12,7 +12,7 @@ import './App.css';
 const particlesOptions = {
   particles: {
     number: {
-      value: 110,
+      value: 90,
       density: {
         enable: true,
         value_area: 800,
@@ -25,9 +25,7 @@ const particlesOptions = {
         random: true,
       }
     },
-    
    },
-
   interactivity: {
     "detect_on": "window", // use this to interact with the particles even when there are boxes above the particles 
     events:{
@@ -37,7 +35,8 @@ const particlesOptions = {
       },
       resize: true
     }
-  }
+  },
+  retina_detect: true
 }
 
 const initialState = {
