@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; 
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
+import particlesParams from './particles';
 import Navigation from './components/Navigation/Navigation';
 import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
@@ -8,36 +9,6 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Rank from './components/Rank/Rank';
 import './App.css';
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 90,
-      density: {
-        enable: true,
-        value_area: 800,
-      },
-    },
-    size:{
-      value: 3,
-      random: true,
-      anim:{
-        random: true,
-      }
-    },
-   },
-  interactivity: {
-    "detect_on": "window", // use this to interact with the particles even when there are boxes above the particles 
-    events:{
-      onhover:{
-        enable: true,
-        mode: 'repulse',
-      },
-      resize: true
-    }
-  },
-  retina_detect: true
-}
 
 const initialState = {
       input: '',
@@ -140,7 +111,7 @@ class App extends Component {
     return (
       <div className="App">
         <Particles className='particles'
-            params={particlesOptions} />
+            params={particlesParams} />
         <Navigation onRouteChange={this.onRouteChange} isSignedIn={isSignedIn}/>
         { route === 'home' 
           ? <div>
