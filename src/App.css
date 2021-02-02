@@ -8,6 +8,7 @@
 }
 
 .particles{
+  background: linear-gradient(89deg, rgb(7, 133, 91) 0%, rgb(47, 204, 165) 100% );;
   position: fixed;
   top: 0;
   right: 0;

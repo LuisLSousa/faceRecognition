@@ -1,9 +1,4 @@
 const particlesParams = {
-    background: {
-        color: {
-            value: "#0f0f0f",
-        },
-    },
     fpsLimit: 60,
     interactivity: {
         detectsOn: "window",
