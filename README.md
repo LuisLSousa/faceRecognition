@@ -3,8 +3,10 @@
 See the project live at:
 https://proj-face-recognition.herokuapp.com/
 
-Frontend: React,
+Frontend: React
+
 Backend: Express
+
 Database: PostgreSQL
 
 # Getting Started with Create React App
