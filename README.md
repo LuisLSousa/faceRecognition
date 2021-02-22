@@ -7,6 +7,10 @@ Frontend: React \
 Backend: Express \
 Database: PostgreSQL
 
+# Backend available at
+
+https://github.com/LuisLSousa/faceRecogniton-api
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
