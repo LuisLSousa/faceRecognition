@@ -1,14 +1,14 @@
 # Face Recognition
 A web app that receives an image URL and finds all the faces in the image.
 
-See the project live at:
-## https://proj-face-recognition.herokuapp.com/
+See the project live at: \
+https://proj-face-recognition.herokuapp.com/
 
 Frontend: React \
 Backend: Node.js + Express.js \
 Database: PostgreSQL
 
-# Backend available at
+# Backend available at:
 
 https://github.com/LuisLSousa/faceRecognition-api
 
