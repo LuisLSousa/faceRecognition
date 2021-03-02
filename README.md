@@ -9,7 +9,7 @@ Database: PostgreSQL
 
 # Backend available at
 
-https://github.com/LuisLSousa/faceRecogniton-api
+https://github.com/LuisLSousa/faceRecognition-api
 
 # Getting Started with Create React App
 
